@@ -1,0 +1,4 @@
+/** Normalize URL to its canonical form */
+export declare function createCanonicalURL(url: string, base?: string): URL;
+/** Check if a URL is already valid */
+export declare function isValidURL(url: string): boolean;

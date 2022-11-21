@@ -1,0 +1,58 @@
+# @astrojs/rss
+
+## 1.0.3
+
+### Patch Changes
+
+- [#5164](https://github.com/withastro/astro/pull/5164) [`4a8a346ca`](https://github.com/withastro/astro/commit/4a8a346ca9a6d6ed8def2fa32329c1db922893d2) Thanks [@MoustaphaDev](https://github.com/MoustaphaDev)! - Add support for markdown files with the following extensions:
+  - `.markdown`
+  - `.mdown`
+  - `.mkdn`
+  - `.mkd`
+  - `.mdwn`
+
+## 1.0.2
+
+### Patch Changes
+
+- [#4842](https://github.com/withastro/astro/pull/4842) [`812658ad2`](https://github.com/withastro/astro/commit/812658ad2ab3732a99e35c4fd903e302e723db46) Thanks [@bluwy](https://github.com/bluwy)! - Add missing dependencies, support strict dependency installation (e.g. pnpm)
+
+- [#4842](https://github.com/withastro/astro/pull/4842) [`812658ad2`](https://github.com/withastro/astro/commit/812658ad2ab3732a99e35c4fd903e302e723db46) Thanks [@bluwy](https://github.com/bluwy)! - Remove path-browserify dependency
+
+## 1.0.1
+
+### Patch Changes
+
+- [#4701](https://github.com/withastro/astro/pull/4701) [`6e1d62fe2`](https://github.com/withastro/astro/commit/6e1d62fe222e45b763b2b60b377b07e431950d54) Thanks [@bholmesdev](https://github.com/bholmesdev)! - Fix globs for homepage route
+
+## 1.0.0
+
+### Major Changes
+
+- [`04ad44563`](https://github.com/withastro/astro/commit/04ad445632c67bdd60c1704e1e0dcbcaa27b9308) - > Astro v1.0 is out! Read the [official announcement post](https://astro.build/blog/astro-1/).
+
+  **No breaking changes**. This package is now officially stable and compatible with `astro@1.0.0`!
+
+## 0.2.2
+
+### Patch Changes
+
+- [#3956](https://github.com/withastro/astro/pull/3956) [`57e529e4c`](https://github.com/withastro/astro/commit/57e529e4c13f3e7829311ac6f92682eb6333fd96) Thanks [@esafev](https://github.com/esafev)! - Throw the error when 'site' option is missing
+
+## 0.2.1
+
+### Patch Changes
+
+- [#3913](https://github.com/withastro/astro/pull/3913) [`cd2dbfedb`](https://github.com/withastro/astro/commit/cd2dbfedb15969274df40b1c41b6680ea8885e8d) Thanks [@matthewp](https://github.com/matthewp)! - Adds error messages for missing required fields
+
+## 0.2.0
+
+### Minor Changes
+
+- [#3301](https://github.com/withastro/astro/pull/3301) [`0efaf110`](https://github.com/withastro/astro/commit/0efaf110fceba149cd41cbaa0f37311e6887cdec) Thanks [@bholmesdev](https://github.com/bholmesdev)! - Change the optional "canonicalUrl" argument to a required "site" argument. This fixes problems with import.meta.env.SITE. If you want to use your project's "site" field for your RSS feeds, set site: import.meta.env.SITE in the rss function options
+
+## 0.1.1
+
+### Patch Changes
+
+- [`1032e450`](https://github.com/withastro/astro/commit/1032e450cc224e603e8e69ef1422de6dbf184dd2) Thanks [@FredKSchott](https://github.com/FredKSchott)! - Introduce new @astrojs/rss package for RSS feed generation! This also adds a new global env variable for your project's configured "site": import.meta.env.SITE. This is consumed by the RSS feed helper to generate the correct canonical URL.
