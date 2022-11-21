@@ -1,8 +1,8 @@
 export const SITE = {
-  title: '潮流周刊',
-  author: 'Tw93',
-  description: '记录工程师 Tw93 的不枯燥生活，每周一发布，欢迎关注',
-  keywords: 'Tw93,Weekly,Blog,前端,macOS,MiaoYan,Pack,Swift',
+  title: '乱翻书',
+  author: 'donghao',
+  description: '记录📝',
+  keywords: 'books,music,song,study,hk',
   icon: 'https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png',
   pic: 'https://cdn.fliggy.com/upic/2XFNGI.png',
   homePage: 'https://weekly.tw93.fun',
