@@ -64,5 +64,6 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [defaultLayoutPlugin],
     extendDefaultPlugins: true,
+    site: 'https://Kafka3.github.io',
   },
 });
