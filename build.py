@@ -30,8 +30,7 @@ if __name__ == "__main__":
         dateList = ["2022-10-10","2022-09-26","2022-09-12","2022-09-05","2022-08-29"]
         num = int(oldTitle.split('-')[0])
         if index < 5:
-           modified = fetch_ci_time('/src/pages/posts/' + filepath)
-
+          modified = fetch_ci_time('/src/pages/posts/' + filepath)
           recentMd= '* [{}]({}) - {}\n'.format(title, url, modified)
           recentfile.write(recentMd)
         readmefile.write(readmeMd)
