@@ -35,10 +35,10 @@ function defaultLayoutPlugin() {
     }
 
     //这里也可以直接在 frontmatter，赋值给 date 字段
-    if (!date) {
-      const createDate = dayjs(fs.statSync(filePath).atime).format(
-        'YYYY/MM/DD',
-      );
+    //if (!date) {
+      //const createDate = dayjs(fs.statSync(filePath).atime).format(
+        //'YYYY/MM/DD',
+      //);
       //这里特殊处理了下，因为之前的weekly迁移过来后，createDate不对了，通过规律重写了下，99期以后的ok
       if (SITE.repo == 'tw93/weekly') {
         const num = filePath.split('/posts/')[1].split('-')[0];
