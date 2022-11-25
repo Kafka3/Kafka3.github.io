@@ -5,8 +5,8 @@ import urllib.parse
 import datetime
 
 def fetch_ci_time(filePath):
-    print("https://api.github.com/repos/tw93/weekly/commits?path=" + filePath + "&page=1&per_page=1")
-    entries = httpx.get("https://api.github.com/repos/tw93/weekly/commits?path=" + filePath + "&page=1&per_page=1")
+    print("https://api.github.com/repos/Kafka3/Kafka3.github.io/commits?path=" + filePath + "&page=1&per_page=1")
+    entries = httpx.get("https://api.github.com/repos/Kafka3/Kafka3.github.io/commits?path=" + filePath + "&page=1&per_page=1")
     ciTime= entries.json()[0]["commit"]["committer"]["date"].split("T")[0]
     return ciTime
     # return datetime.datetime.strptime(ciTime,"%Y-%m-%d")
@@ -24,7 +24,7 @@ if __name__ == "__main__":
       if name.endswith('.md'):
         filepath = urllib.parse.quote(name)
         oldTitle = name.split('.md')[0]
-        url   = 'https://weekly.tw93.fun/posts/' + oldTitle
+        url   = 'https://www.dongh.tech/' + oldTitle
         title = '第 ' + oldTitle.split('-')[0] + ' 期 - ' + oldTitle.split('-')[1];
         readmeMd= '* [{}]({})\n'.format(title, url)
         dateList = ["2022-10-10","2022-09-26","2022-09-12","2022-09-05","2022-08-29"]
