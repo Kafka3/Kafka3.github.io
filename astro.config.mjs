@@ -38,22 +38,7 @@ function defaultLayoutPlugin() {
     if (!date) {
       const createDate = dayjs(fs.statSync(filePath).atime).format(
         'YYYY/MM/DD',
-      );
-      //这里特殊处理了下，因为之前的weekly迁移过来后，createDate不对了，通过规律重写了下，99期以后的ok
-      if (SITE.repo == 'tw93/weekly') {
-        const num = filePath.split('/posts/')[1].split('-')[0];
-        if (num < 99) {
-          file.data.astro.frontmatter.date = dayjs('2022-10-10')
-            .subtract(100 - num, 'week')
-            .format('YYYY/MM/DD');
-        } else if (num == 99) {
-          file.data.astro.frontmatter.date = '2022-10-10';
-        } else {
-          file.data.astro.frontmatter.date = createDate;
-        }
-      } else {
-        file.data.astro.frontmatter.date = createDate;
-      }
+      )
     }
   };
 }
