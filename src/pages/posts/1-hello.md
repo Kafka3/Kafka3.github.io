@@ -1,3 +1,6 @@
+---
+data: 2022/11/11
+---
 <img src=https://tva1.sinaimg.cn/large/008vxvgGgy1h81f0vkm11j30lc0sgdka.jpg width=900/>
 
 <small>封面来源，song，我的女朋友，今天是我们在一起的300天</small>
