@@ -13,7 +13,7 @@ def fetch_ci_time(filePath):
 
 if __name__ == "__main__":
   readmefile=open('README.md','w')
-  readmefile.write("# 潮流周刊\n\n> 记录工程师 Tw93 的不枯燥生活，欢迎订阅，也欢迎 [推荐](https://github.com/tw93/weekly/discussions/22) 你的好东西，Fork 自用可见 [开发文档](https://github.com/tw93/weekly/blob/main/Deploy.md)，期待你玩得开心~\n\n")
+  readmefile.write("# 乱翻书\n\n> 记录每周\n\n")
   recentfile=open('RECENT.md','w')
 
   for root, dirs, filenames in os.walk('./src/pages/posts'):
@@ -29,11 +29,8 @@ if __name__ == "__main__":
         readmeMd= '* [{}]({})\n'.format(title, url)
         dateList = ["2022-10-10","2022-09-26","2022-09-12","2022-09-05","2022-08-29"]
         num = int(oldTitle.split('-')[0])
-        if index < 5 :
-          if num < 100 :
-            modified = dateList[99-num]
-          else :
-            modified = fetch_ci_time('/src/pages/posts/' + filepath)
+        if index < 5 ：
+           modified = fetch_ci_time('/src/pages/posts/' + filepath)
 
           recentMd= '* [{}]({}) - {}\n'.format(title, url, modified)
           recentfile.write(recentMd)
