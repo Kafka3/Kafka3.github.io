@@ -9,6 +9,6 @@ export const SITE = {
   blogPage: 'https://tw93.fun/',
   twitterId: 'HiTw93',
   githubId: 'tw93',
-  repo: 'Kafak3/'
+  repo: 'tw93/weekly'
 };
 
