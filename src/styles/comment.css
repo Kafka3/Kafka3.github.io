@@ -132,7 +132,7 @@ main .gsc-comment-box-textarea:focus,
   visibility: hidden;
 }
 .gsc-reactions-count:after {
-  content: '欢迎一起交流~';
+  content: '敌人是自己和世界😆';
   visibility: visible;
   font-size: 1.2rem;
   display: inline-block;
