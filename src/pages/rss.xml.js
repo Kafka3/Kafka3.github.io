@@ -14,7 +14,7 @@ export const get = () =>
     title: '乱翻书',
     description: '记录每周',
     site: 'https://www.dongh.tech/',
-    customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image>`,
+    customData: `<image><url>https://tva1.sinaimg.cn/large/008vxvgGgy1h8it0u3el2j30u00u074o.jpg</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
       const oldTitle = url.split('/posts/')[1];
