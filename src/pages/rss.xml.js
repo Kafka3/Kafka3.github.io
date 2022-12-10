@@ -14,7 +14,7 @@ export const get = () =>
     title: '乱翻书',
     description: '记录每周',
     site: 'https://www.dongh.tech/',
-    customData: `<image><url>https://images2.imgbox.com/a3/40/Ebvnum9R_o.png</url></image>`,
+    customData: `<image><url>https://cc.qmniy.cn/images/2022/12/10/1670679011639489e3d2189.png</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
       const oldTitle = url.split('/posts/')[1];
