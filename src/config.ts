@@ -3,7 +3,7 @@ export const SITE = {
   author: 'donghao',
   description: '记录📝',
   keywords: 'books,music,song,study,hk',
-  icon: 'https://cc.qmniy.cn/images/2022/12/10/1670679011639489e3d2189.png',
+  icon: 'https://s1.xptou.com/2022/12/11/63955b1b564f3.png',
   pic: 'https://cdn.fliggy.com/upic/2XFNGI.png',
   homePage: 'https://weekly.tw93.fun',
   blogPage: 'https://tw93.fun/',
