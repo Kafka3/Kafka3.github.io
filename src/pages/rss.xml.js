@@ -14,7 +14,7 @@ export const get = () =>
     title: '乱翻书',
     description: '记录每周',
     site: 'https://www.dongh.tech/',
-    customData: `<image><url>https://s1.xptou.com/2022/12/11/63955b1b564f3.png</url></image>`,
+    customData: `<image><url>https://s1.xptou.com/2022/12/11/63955bff74499.png</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
       const oldTitle = url.split('/posts/')[1];
