@@ -12,7 +12,7 @@ posts = posts.sort((a, b) => {
 export const get = () =>
   rss({
     title: '乱翻书',
-    description: '记录每周',
+    description: '记录每周~',
     site: 'https://www.dongh.tech/',
     customData: `<image><url>https://s1.xptou.com/2022/12/11/639581b92baca.png</url></image>`,
     items: posts.map((item) => {
