@@ -1,7 +1,7 @@
 ---
 date: 2022/11/11
 ---
-<img src=https://ipic.oss-cn-hangzhou.aliyuncs.com/blog/2023-01-04-035523.jpg width=900/>
+<img src=https://ipic.oss-cn-hangzhou.aliyuncs.com/blog/2023-01-04-035523.jpg width=800/>
 
 <small>封面来源，song，我的女朋友，今天是我们在一起的300天</small>
 
