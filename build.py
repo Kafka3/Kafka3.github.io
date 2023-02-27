@@ -13,7 +13,7 @@ def fetch_ci_time(filePath):
 
 if __name__ == "__main__":
   readmefile=open('README.md','w')
-  readmefile.write("# 乱翻书\n\n> 记录每周\n\n")
+  readmefile.write("# 颂歌\n\n> Every day is worthy of singing praises~\n\n")
   recentfile=open('RECENT.md','w')
 
   for root, dirs, filenames in os.walk('./src/pages/posts'):
