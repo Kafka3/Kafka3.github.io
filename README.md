@@ -1,6 +1,6 @@
-# 乱翻书
+# 颂歌
 
-> 记录每周
+> Every day is worthy of singing praises~
 
 * [第 10 期 - 2023🏄](https://kafka3-github-io.vercel.app/posts/10-2023🏄)
 * [第 9 期 - 2022年终总结](https://kafka3-github-io.vercel.app/posts/9-2022年终总结)
