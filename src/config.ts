@@ -1,7 +1,7 @@
 export const SITE = {
-  title: '乱翻书',
+  title: '颂歌',
   author: 'donghao',
-  description: '记录📝',
+  description: '📝',
   keywords: 'books,music,song,study,hk',
   icon: 'https://s1.xptou.com/2022/12/11/639581b92baca.png',
   pic: 'https://cdn.fliggy.com/upic/2XFNGI.png',
