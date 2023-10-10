@@ -1,5 +1,5 @@
 export const SITE = {
-  title: '颂歌',
+  title: 'dongh',
   author: 'donghao',
   description: '📝',
   keywords: 'books,music,song,study,hk',
